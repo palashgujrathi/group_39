@@ -1,13 +1,16 @@
 
-# **INFO 201 Group project**
+# <p align="center">**INFO 201 Project Proposal**</p>
 
-### Group Name: **Group 39**
+### Group Name: **```Group 39```**
 
-### Group members: **Shilpa Narayanan, Palash Gujrathi, Mwihaki(Keeke) Karuri, Jarrett Voogd.**
+### ```Group members:``` <span font-size:12 pt>
+### - **Shilpa Narayanan**
+### - **Palash Gujrathi**
+### - **Mwihaki(Keeke) Karuri**
+### - **Jarrett Voogd** </span>
 
-## *Project Proposal*
-
->**Project Description:**
+# <u><p align="center">**Project Proposal**</u></p>
+> **Project Description:**
 
 The dataset that we will be working with has to do with information regarding Black Friday sales. This data is a sample of transactions made in a retail store. It takes into account the demographics of the consumers (age, gender, stay in the current city, etc.). We accessed this data from kaggle.com, and the data set itself comes from a competition hosted by Analytics Vidhya.
 Our target audience will include the retail store’s  business analyst group, the advertising group, and the storekeeper of this particular store location. We want our audience to understand who their target market is based on the demographics of their customers. This way, they are able to market their products appropriately and draw in as much business as possible. The questions our project will answer for our audience will include:
