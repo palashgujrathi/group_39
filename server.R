@@ -51,9 +51,7 @@ shinyServer <- function(input, output) {
     HTML(markdown::markdownToHTML(knit("mapText.Rmd", quiet = TRUE)))
   })
   
-  output$CPIinfo <- renderUI({
-    HTML(markdown::markdownToHTML(knit("CPIinfo.Rmd", quiet = TRUE)))
-  })
+  
   
   output$wageSummary <- renderUI({
     HTML(markdown::markdownToHTML(knit("wageIntro.Rmd", quiet = TRUE)))
