@@ -37,10 +37,7 @@ shinyServer <- function(input, output) {
         p <- plot_ly(year_selected, x = ~x, y = ~y, color = ~year_selected$State, type = 'scatter', mode = 'lines') %>%
             layout(xaxis = list(title = "YEARS"), yaxis = list(title = "MINIMUM WAGE ($)"),
                    title = paste("MINIMUM WAGE ($) vs YEARS", min(input$years), "-", max(input$years)), margin = list(t=120))#FF8C00
-        
-        # p <- ggplot(year_selected) +
-        #   geom_line(aes(x = Year, y = High.Value, color = State)) +
-        #   ggtitle("CPI vs Time") + theme(plot.title = element_text(hjust = 0.5, size=16))
+       
         return(p)
     })
 
