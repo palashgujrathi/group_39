@@ -17,7 +17,7 @@ shinyServer <- function(input, output) {
     #     y <- year_selected$High.Value
     #     p <- plot_ly(year_selected, x = ~x, y = ~y, colors = "#FF8C00", type = 'scatter', mode = 'lines')
     #     return(p)
-    # })
+    # }))
     # 
     
     
