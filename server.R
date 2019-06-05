@@ -19,6 +19,8 @@ shinyServer <- function(input, output) {
     #     return(p)
     # })
     # 
+    
+    
     # output$lowPlot <- renderPlotly({
     #     state_name <- filter(data, State==input$states)
     #     year_selected <- filter(state_name, Year>=input$years[1] & Year<=input$years[2])
